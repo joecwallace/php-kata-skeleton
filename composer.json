@@ -1,0 +1,21 @@
+{
+    "name": "joecwallace/kata-skeleton",
+    "description": "A starting point for code katas.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe C. Wallace, III",
+            "email": "joe.c.wallace@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "~2.1@dev"
+    }
+}
